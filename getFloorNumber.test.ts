@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { getFloorNumber } from "./main";
+import { getFloorNumber } from "./getFloorNumber";
 
 test("Test get floor number function", () => {
 	const cases = [2, 6, 13, 23, 32];
